@@ -2,7 +2,7 @@ import unittest
 import os
 import shutil
 import sys
-from file_number_rename.number_rename import rename_files, rename_file_name, parse_arguments
+from file_number_rename.file_rename import rename_files, rename_file_name, parse_arguments
 
 
 class NumberRenameTestCase(unittest.TestCase):
