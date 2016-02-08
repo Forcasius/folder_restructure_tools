@@ -63,4 +63,3 @@ if __name__ == "__main__":
     directory = os.path.dirname(__file__)
     rename_files(args.path, args.start, args.padding)
 
-# TODO parse "CD - 01" etc.
